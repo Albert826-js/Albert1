@@ -122,10 +122,10 @@
   .side img{
    position: absolute; 
    
-   height:28.3rem;
+   height:29rem;
     left:65%;
-   filter: brightness(160%) contrast(110%) grayscale(90%);
-    width:24rem;
+   filter: brightness(110%) contrast(110%) grayscale(100%);
+    width:27rem;
   
   }
  
@@ -266,16 +266,17 @@
     position: relative;
     margin-left:1rem;
    border-radius:40px;
+   width:20rem;
    
   
   
  }
  
  .orac img{
-   position: absolute;
-   height:196px;
-  
-   margin-left:rem;
+    position: absolute;
+   height:10rem;
+   margin-left:5rem;
+   margin-top:1.5rem;
    
  
  }
@@ -285,7 +286,7 @@
   height:3rem;
   width:10rem;
   margin-top:14rem;
-  margin-left:90px;
+  margin-left:80px;
   font-size:1.1rem;
   background-color: black;
   color: white;
@@ -424,3 +425,19 @@
  .once p{
    color:red;
  }
+
+ .black{
+    background-color: black;
+    height: 310px;
+    display: flex;
+ align-items: end;
+ justify-content: center;
+  gap:29px;
+ }
+
+ .black img{
+    height:22px;
+    margin-left:2rem;
+    margin-bottom:2rem;
+ 
+}
